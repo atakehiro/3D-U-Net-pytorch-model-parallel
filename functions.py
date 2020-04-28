@@ -82,7 +82,7 @@ class EncoderBlock(nn.Module):
             if k.startswith("conv"):
                 x = op(x)
                 if k.endswith("1"):
-                    down_sampling_features.append(x)
+                    down_sampling_features.append(x.to('cuda:1'))
             elif k.startswith("max_pooling"):
                 x = op(x)
         return x, down_sampling_features
