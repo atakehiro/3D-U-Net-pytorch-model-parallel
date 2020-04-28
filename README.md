@@ -1,6 +1,6 @@
 # 3D-U-Net-pytorch-model-parallel
 
-Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation
+Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation.
 
 
 # Author
