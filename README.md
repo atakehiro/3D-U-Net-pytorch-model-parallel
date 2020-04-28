@@ -8,6 +8,8 @@ Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation 
 <img src="u-net.jpg" width="1000" align="below">
 ModelParallelによって、大きなネットワークの学習が可能です。
 
+参考：https://qiita.com/takeajioka/items/26439b848f66f43bb1d3
+
 ## Usage
 Main.pyで画像のパスやwindow sizeなどのパラメータを調整して実行
 
