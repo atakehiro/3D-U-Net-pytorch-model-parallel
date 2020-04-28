@@ -19,8 +19,8 @@ if __name__ == "__main__":
     criterion = DiceLoss()
     no_epochs = 10
     trainer = Trainer(net=model, optimizer=optim, criterion=criterion, no_epochs=no_epochs)
-    trainer.train(input_data[0:8,:,:,:,:], label_data, batch_data_gen)
-    pred = trainer.predict(input_data[0:8,:,:,:,:])
+    trainer.train(input_data, label_data, batch_data_gen)
+    pred = trainer.predict(input_data)
     print(pred.shape)
     np.save('prediction', pred)
 
