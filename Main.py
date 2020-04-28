@@ -64,6 +64,7 @@ if __name__ == "__main__":
     window_size = (32, 32, 32)
     input_data = data_gen(image, window_size)
     label_data = data_gen(label, window_size)
+    print('image size:', image.shape)
     print('data size:', input_data.shape)
     model = UnetModel()
     print(model)
