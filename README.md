@@ -12,6 +12,12 @@ Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation 
 Main.pyで画像のパスやwindow sizeなどのパラメータを調整して実行
 
 
+## Dependencies
+Anaconda
+Python 3.6
+pytorch== 1.1.0_cuda9.0.176_cudnn7.5.1_0
+tifffile==2020.2.16
+
 ## Author
 Takehiro Ajioka
 
