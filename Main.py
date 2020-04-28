@@ -61,7 +61,7 @@ class Trainer(object):
 if __name__ == "__main__":
     image = tifffile.imread('traindata/training_input.tif')
     label = tifffile.imread('traindata/training_groundtruth.tif')
-    window_size = (32, 64, 128)
+    window_size = (64, 64, 128)
     input_data = data_gen(image, window_size)
     label_data = data_gen(label, window_size)
     print('image size:', image.shape)
