@@ -5,6 +5,7 @@ Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation 
 
 エンコーダ部分をGPU1で計算し、デコーダ部分をGPU2で計算するようになっています。
 
+<img src="u-net.jpg" width="1000" align="below">
 以上のModelParallelによって、大きなネットワークの学習が可能です。
 
 ## Usage
