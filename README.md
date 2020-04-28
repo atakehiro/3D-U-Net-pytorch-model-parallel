@@ -1,5 +1,5 @@
 # 3D-U-Net-pytorch-model-parallel
-このコードはhttps://github.com/JielongZ/3D-UNet-PyTorch-Implementation のコードをModelParallel出来るように改変したものです。
+このコードはhttps://github.com/JielongZ/3D-UNet-PyTorch-Implementation をModelParallel出来るように改変したものです。
 
 Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation for ModelParallel of 2 GPU.
 
