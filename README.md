@@ -8,7 +8,9 @@ Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation 
 <img src="u-net.jpg" width="1000" align="below">
 ModelParallelによって、大きなネットワークの学習が可能です。
 
+
 変更点は2つです。
+
 １．UnetModelクラスで計算するGPUを指定して割り振り
 ２．EncoderBlockクラスでスキップコネクション先のtensorをGPU2に指定
 
