@@ -3,7 +3,7 @@
 
 Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation for ModelParallel of 2 GPU.
 
-変更点は2つです。
+改変点は2つです。
 
 １．UnetModelクラスで計算するGPUを指定して割り振り
 ２．EncoderBlockクラスでスキップコネクション先をGPU2に指定
