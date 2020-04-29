@@ -12,7 +12,7 @@ ModelParallelによって、大きなネットワークの学習が可能です�
 変更点は2つです。
 
 １．UnetModelクラスで計算するGPUを指定して割り振り
-２．EncoderBlockクラスでスキップコネクション先のtensorをGPU2に指定
+２．EncoderBlockクラスでスキップコネクション先をGPU2に指定
 
 参考：https://qiita.com/takeajioka/items/26439b848f66f43bb1d3
 
