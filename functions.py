@@ -180,5 +180,5 @@ class Trainer(object):
         steps = len(test_preds) // self.batch_size
         for i in range(steps):
             x = torch.from_numpy(input_data[self.batch_size*i:self.batch_size*i+self.batch_size,:,:,:,:]).float().to('cuda:0')
-            test_preds[self.batch_size*i:self.batch_size*i+self.batch_size,:,:,:,:] = self.net(x).detach().to('cpu')
+            test_preds[self.batch_size*i:self.batch_size*i+self.batch_size,:,:,:,:] = self.net(x).to('cpu').detach()
         return test_preds
