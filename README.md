@@ -19,7 +19,7 @@ ModelParallelによって、大きなネットワークの学習が可能です�
 Main.pyで画像のパスやwindow sizeなどのパラメータを調整して実行
 ```sh
 Python Main.py
-'''
+```
 
 ## Dependencies
 Anaconda
