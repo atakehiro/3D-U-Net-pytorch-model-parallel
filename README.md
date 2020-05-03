@@ -21,7 +21,7 @@ Main.pyで画像のパスやwindow sizeなどのパラメータを調整して�
 Python Main.py
 ```
 
-## Dependencies
+## Environment
 Anaconda
 
 Python 3.6
