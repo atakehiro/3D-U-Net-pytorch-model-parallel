@@ -34,7 +34,3 @@ tifffile==2020.2.16
 Takehiro Ajioka
 
 E-mail:1790651m@stu.kobe-u.ac.jp
-
-## Affiliation
-株式会社日本学術サポート
-https://www.jras.co.jp/
