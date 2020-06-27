@@ -9,7 +9,9 @@ Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation 
 
 改変点は2つです。
 
-1.UnetModelクラスで計算するGPUを指定して割り振り　2.EncoderBlockクラスでスキップコネクション先をGPU2に指定
+1.UnetModelクラスで計算するGPUを指定して割り振り
+
+2.EncoderBlockクラスでスキップコネクション先をGPU2に指定
 
 ModelParallelによって、大きなネットワークの学習が可能になりました。
 
