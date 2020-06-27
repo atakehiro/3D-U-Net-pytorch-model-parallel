@@ -7,7 +7,7 @@ Code is adapted from https://github.com/JielongZ/3D-UNet-PyTorch-Implementation 
 
 <img src="u-net.jpg" width="1000" align="below">
 
-改変点は2つです。
+改変点は以下の2つです。
 
 1.UnetModelクラスで計算するGPUを指定して割り振り
 
